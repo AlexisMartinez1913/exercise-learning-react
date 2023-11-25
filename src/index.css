@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.caja {
+  background-color: aqua;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  background-color: beige;
+  padding: 7px 10px;
+  border: 1px solid;
+  margin: 55px;
+  border-radius: 3px;
+  color: black;
+}
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: antiquewhite;
 }
